@@ -14,3 +14,7 @@ phases:
     commands:
       - echo Pushing the Docker image to ECR...
       - docker push 154005824457.dkr.ecr.eu-north-1.amazonaws.com/work-experience-week:latest
+artifacts:
+  files:
+    - Dockerrun.aws.json
+  discard-paths: yes

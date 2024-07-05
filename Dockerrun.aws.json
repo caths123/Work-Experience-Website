@@ -1,0 +1,18 @@
+{
+    "AWSEBDockerrunVersion": 2,
+    "containerDefinitions": [
+      {
+        "name": "my-work-experience-website",
+        "image": "154005824457.dkr.ecr.eu-north-1.amazonaws.com/work-experience-week:latest",
+        "essential": true,
+        "memory": 128,
+        "portMappings": [
+          {
+            "containerPort": 3000,
+            "hostPort": 80
+          }
+        ]
+      }
+    ]
+  }
+  
